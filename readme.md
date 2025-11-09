@@ -4,7 +4,7 @@
 - clonse the repo
 - Install dependencies (npm install)
 - Start the DB locally 
-  - docker run -e POSTGRES_PASSWORD=mysecret -d -p 5432:5432
+  - `docker run -e POSTGRES_PASSWORD=mysecret -d -p 5432:5432`
   - or Go to neon.tech and get yourseld a new DB
 - change .env file and update your DB credentials
 - npx prisma migrate 
